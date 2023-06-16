@@ -288,14 +288,14 @@
 
   font-weight: var(--botton-font-weight);
   font-size: var(--main-text-font-size);
-  line-height: var(--card-botton-text-line-height);
+  line-height: var(--main-text-line-height);
   transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
     color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media only screen and (min-width: 767px) {
   .review-modal .review-form-btn-send {
-    width: 177px;
+    width: 117px;
     height: 45px;
   }
 }
