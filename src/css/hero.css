@@ -14,12 +14,11 @@
 
 .hero{
     padding-bottom: 72px;
-  
 }
 
 
 .hero-container{
-    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/src/img/hero/hero-bg-mobile.jpg);
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/hero/hero-bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;  
@@ -33,7 +32,7 @@
 screen and (min-resolution: 375dpi) and (min-width:375px) and (max-width:767px),
 screen and (min-resolution: 2dppx) and (min-width:375px) and (max-width:767px){
   .hero-container {
-    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/src/img/hero/hero-bg-mobile@2x.jpg);
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/hero/hero-bg-mobile@2x.jpg);
   }
 }
 
@@ -105,17 +104,44 @@ color: var(--orange-color);
 }
 
 
-.hero-scroll-icon{
+
+.hero-span-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 28px;
     width: 28px;
-    margin-left: 12px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    margin-left: 12px;    
+    transition:background-color var(--transition);
+}
+
+
+.hero-scroll-icon{
+    width: 16px;
+    height: 16px;
+    fill: var(--orange-color); 
+    transition:fill var(--transition);
 }
 
 
 .hero-scroll-link:hover{
     color: var(--orange-color);
-  
 }
+
+.hero-scroll-link:hover .hero-span-icon{
+  background-color: var(--orange-color);
+}
+
+
+.hero-scroll-link:hover .hero-scroll-icon{
+    fill: var(--white-color);    
+}
+
+
+
+
 
 
 
@@ -125,14 +151,13 @@ color: var(--orange-color);
 
   
     .hero{
-        padding-bottom: 50px;
+       padding-bottom: 50px;
     }
     
 
     .hero-container{
-        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/src/img/hero/hero-bg-tablet.jpg);
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/hero/hero-bg-tablet.jpg);
         padding: 671px 40px 40px 40px; 
-       
     }
 
 
@@ -140,7 +165,7 @@ color: var(--orange-color);
     screen and (min-resolution: 192dpi) and (min-width:768px) and (max-width:1200px),
     screen and (min-resolution: 2dppx) and (min-width:768px) and (max-width:1200px){
       .hero-container {
-        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/src/img/hero/hero-bg-tablet@2x.jpg);
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/hero/hero-bg-tablet@2x.jpg);
       }
     }
 
@@ -171,11 +196,47 @@ color: var(--orange-color);
     line-height:var( --form-text-line-height) ;
 }
 
-.hero-scroll-icon{
+.hero-span-icon{
     height: 38px;
     width: 38px;
     margin-left: 14px;
 }
 
+.hero-scroll-icon{
+    width: 22px;
+    height: 22px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    
+    .hero{
+       padding-bottom: 72px;
+    }
+
+
+    .hero-container{
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/hero/hero-bg.jpg);
+        padding-top: 381px; 
+    }
+
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width:1200px) ,
+    screen and (min-resolution: 192dpi) and (min-width:1200px),
+    screen and (min-resolution: 2dppx) and (min-width:1200px){
+      .hero-container {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/hero/hero-bg@2x.jpg);
+      }
+    }
 
 }
