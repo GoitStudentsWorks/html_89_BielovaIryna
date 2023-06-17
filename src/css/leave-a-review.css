@@ -22,25 +22,20 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-width: 311px;
-  max-width: 375px;
-  height: 95%;
-  max-height: 471px;
+  width: 311px;
+  height: 471px;
   background-color: var(--light-color);
   padding: 32px 24px;
   border-radius: 15px;
-  overflow: scroll;
+  overflow: hidden;
   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media only screen and (min-width: 767px) {
   .review-modal {
-    min-width: 517px;
-    min-height: 628px;
-    height: auto;
-    max-height: min-content;
-    max-width: min-content;
-    overflow: unset;
+    width: 517px;
+    height: 628px;
+    overflow: hidden;
     padding: 40px;
   }
 }
@@ -175,12 +170,37 @@
 }
 
 .review-modal .review-form-input-phone {
-  padding: 0 0 0 90px;
+  padding: 0 0 0 106px;
+}
+
+.review-form-input-border {
+  position: absolute;
+  top: 8px;
+  left: 51px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: black;
+  height: 31px;
+  padding: 7px 7px 0 0;
+  box-shadow: 2.5px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 768px) {
+  .review-form-input-border {
+    font-size: 18px;
+    line-height: 22px;
+    top: 18px;
+    left: 68px;
+    padding: 6px 29px 0 0;
+    height: 33px;
+  }
 }
 
 @media only screen and (min-width: 767px) {
   .review-modal .review-form-input-phone {
-    padding: 0 0 0 135px;
+    padding: 0 0 0 177px;
   }
 }
 
@@ -222,7 +242,7 @@
 
 @media only screen and (min-width: 767px) {
   .review-modal .review-form-name-phone {
-    left: 163px;
+    left: 177px;
   }
 }
 
@@ -255,22 +275,11 @@
   left: 18px;
   transform: translateY(-50%);
 }
-.review-modal .review-modal-icon-number {
-  position: absolute;
-  top: 50%;
-  left: 50px;
-  transform: translateY(-50%);
-}
 
 @media only screen and (min-width: 767px) {
   .review-modal .review-modal-icon-flag {
     width: 32px;
     height: 32px;
-  }
-  .review-modal .review-modal-icon-number {
-    width: 43px;
-    height: 22px;
-    left: 74px;
   }
 }
 
