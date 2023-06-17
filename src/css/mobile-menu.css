@@ -4,8 +4,8 @@
 	right: 0;
 	width: 95%;
 	max-width: 220px;
-	height: 95%;
-	max-height: 812px;
+	height: 100vh;
+	
 	overflow: scroll;
 	padding: 136px 46px 20px 20px;
 	background-color: var(--dark-color);
@@ -92,8 +92,6 @@
 @media screen and (min-width:768px) {
 	.mobile-menu {
 		max-width: 290px;
-		height: 95%;
-		max-height: 1024px;
 		padding: 156px 81px 24px 32px;
 		
 	}
@@ -125,6 +123,6 @@
 }
 @media screen  and (min-width: 1200px){
 	.mobile-menu{
-		display: none;
+		display: none	;
 	}
 }
