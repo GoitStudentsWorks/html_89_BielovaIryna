@@ -1,0 +1,110 @@
+
+.howmade-titel{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    
+    color:var(--main-dark-color);
+     margin-bottom: 32px; 
+}
+
+
+.howmade-titel-color{
+    color:var(--orange-color);
+}
+
+.howmade-list-titel{
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: calc(24/18);
+color:var(--main-dark-color);
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.howmade-list-items{
+   
+font-style: regular;
+font-size: 14px;
+line-height: 18px;
+line-height: calc(18/14);
+
+}
+.howmade-list{
+ display: flex;
+ flex-direction: column;
+ gap:18px;
+}
+.howmade-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.howmade-img {
+ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pastry-chef-preparing-chocolate-cake.jpg);
+border-radius: 15px;
+}
+.howmade-video{
+    overflow:hidden;
+position:relative;
+padding-bottom:56.25%;
+padding-top:30px;
+height:0;
+}
+.howmade-video iframe {
+position:absolute;
+width:100%;
+height:100%;
+left:0;
+top:0;
+}
+ul.howmade-list {
+    list-style-type: disc ;
+  }
+
+@media screen and (min-width: 768px) {
+    .howmade-container{
+padding-left: 43px;
+padding-right: 43px;
+    }
+    .howmade-list-titel{
+        padding-top: 32px;
+    padding-bottom: 28px;}
+    .howmade-titel{
+        margin-bottom: 50px; 
+
+    }
+  }
+@media screen and (min-width: 1200px) {
+	.howmade-box{
+        display: flex;
+        flex-wrap: nowrap;
+    } 
+    .howmade-list{
+        gap:24px;
+       
+	}
+
+}
+
+.howmade-video{
+    overflow:hidden;
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    }
+    .howmade-video iframe {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    }
+
+   
