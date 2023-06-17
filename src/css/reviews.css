@@ -85,7 +85,7 @@
 .review-name {
   font-weight: var(--mobile-title-font-weight);
   font-size: var(--secondary-title-font-size);
-  line-height: 1.33;
+  line-height: var(--secondary-title-second-line-height);
   margin-bottom: 24px;
   color: var(--main-dark-color);
 }
