@@ -57,6 +57,7 @@ screen and (min-resolution: 2dppx) and (min-width:375px) and (max-width:767px){
 
 
 .hero-btn{
+    display: block;
 padding: 12px 28px;    
 border-radius: 100px;   
 font-weight: var( --mobile-title-font-weight);
@@ -138,11 +139,6 @@ color: var(--orange-color);
 .hero-scroll-link:hover .hero-scroll-icon{
     fill: var(--white-color);    
 }
-
-
-
-
-
 
 
 
