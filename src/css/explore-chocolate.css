@@ -1,0 +1,87 @@
+.explore-section {
+  padding: 72px 0;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(/img/explore-chocolate-first/mobile/Subcribe-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 375px;
+  background-size: cover;
+}
+.explore-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  max-width: 378px;
+  margin-right: auto;
+  margin-left: auto;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.explore-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+  max-width: 467px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 24px;
+}
+.explore-button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 40px;
+  gap: 14px;
+  max-width: 172px;
+  height: 50px;
+  background: #fd9222;
+  border-radius: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  transition: background var(--transition), color var(--transition);
+}
+.explore-button:hover,
+.explore-button:focus {
+  background: #fcf1e0;
+  color: #fd9222;
+}
+@media screen and (min-width: 768px) {
+  .explore-section {
+    max-width: 768px;
+    background-image: url(/img/explore-chocolate-first/planshet/Subcribe-tablet.jpg);
+  }
+  .explore-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .explore-section {
+    max-width: 1200px;
+    background-image: url(/img/explore-chocolate-first/desctop/Subcribe-desc.jpg);
+  }
+}
+.explore-container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
