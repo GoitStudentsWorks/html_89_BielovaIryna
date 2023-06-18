@@ -5,16 +5,19 @@
     margin: -1px;
     border: 0;
     padding: 0;
-    
+
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
 
-.advantages-container{
+.advantages{
     background:var(--dark-color) ;
-    padding: 20px;
+}
+.advantages-container{
+    padding-top: 20px;
+    padding-bottom: 36px;
 }
 .advantages-list{
     display: flex;
@@ -22,17 +25,15 @@
        gap: 20px;
 }
 
-.advantages-list-items {
-width: 308px;
-}
+
 @media screen and (min-width: 768px) {
     .advantages-container{
-     
       padding-bottom: 85px;
       padding-top: 50px;
     }
     .advantages-list{
-row-gap: 40px;
+
+row-gap: 32px;
 column-gap: 60px;
 
         }
@@ -42,8 +43,7 @@ column-gap: 60px;
         padding-bottom: 50px;
     }
     .advantages-list{
-      
-       flex-wrap: nowrap; 
+    flex-wrap: nowrap; 
     gap:70px;
     }
 	}
@@ -53,33 +53,33 @@ column-gap: 60px;
     border: 1px solid var(--light-text-color);
 border-radius: 365px;
 display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: center;
 margin-bottom: 22px;
 }
 .advantages-titel{
-width: 173px;
-height: 22px;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: calc(22/18);
+
+font-weight: var(--mobile-title-font-weight);
+font-size: var(--secondary-title-font-size);
+line-height: calc(--secondary-title-line-height);
 color: var(--white-color);
 margin-bottom: 18px;
 }
 .advantages-txt{
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-letter-spacing: -0.02em;
-width: 308px;
+font-weight: var(--main-text-secondary-font-weight);
+font-size: var(--main-text-font-size);
+line-height: var(--main-text-line-height);
+letter-spacing: var(--main-text-letter-spacing);
+max-width: 308px;
 color:var(--light-text-color);
 
 }
 
 @media screen and (min-width: 1200px) {
+   
+    .advantages-list{
+    justify-content: center;
+    }
     .advantages-list-items{
         padding-right: 18px;
         position: relative;}
@@ -96,5 +96,3 @@ color:var(--light-text-color);
 
 
 }}
-
- 
