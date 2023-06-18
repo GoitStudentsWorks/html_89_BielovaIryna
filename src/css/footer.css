@@ -49,7 +49,6 @@
     width: 130px;
     height: 152px;
     left: 20px;
-    /*top: 256px;*/
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -92,7 +91,6 @@
 }
 .footer-text-all {
     width: 300px;
-    /*height: 56px;*/
     left: 20px;
     top: 32px;
 
@@ -105,16 +103,13 @@
     padding: 0px;
     gap: 14px;
     width: 164px;
-    /*height: 72px;
-    left: 20px;
-    top: 120px;*/
+    
 }
 
 
 
 .footer-adress {
-    padding-top: 14px;
-    padding-bottom: 4px;
+    
     width: 134px;
     height: 18px;
     font-family: 'Montserrat';
@@ -125,6 +120,10 @@
     text-align: center;
     letter-spacing: -0.02em;
     color: #FFFFFF;
+}
+.footer-adress-li {
+    padding-top: 14px;
+    padding-bottom: 4px;
 }
 
 .footer-container-social {
@@ -137,7 +136,7 @@
     height: 22px;
     left: 297px;
     top: 120px;
-    /*padding-left: 115px;*/
+   
 
 }
 .footer-social-list {
@@ -181,7 +180,7 @@
 
 
 .footer-menu-text {
-    /*width: 43px;*/
+
     height: 16px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -189,7 +188,6 @@
     font-size: 14px;
     line-height: 16px;
     display: flex;
-    /*align-items: center;*/
     letter-spacing: -0.02em;
     color: #FFFFFF;
    
@@ -235,7 +233,6 @@
 .footer-text {
    
     width: 300px;
-    /*height: 68px;*/
     left: 32px;
     top: 50px;
     font-family: 'Montserrat';
@@ -245,8 +242,7 @@
     line-height: 34px;
     letter-spacing: -0.02em;
     color: #FD9222;
-    /*padding-bottom: 24px;*/
-
+   
 }
 
 .footer-menu {
@@ -309,11 +305,19 @@
     padding-top: 24px;
 }
 
-
 }
 
 @media screen and (min-width: 1158px) {
 
+.three-section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 62px;
+}
+
+.footer-container-social {
+    display: block;
+     }
 .footer {
     
     width: 100%;
@@ -337,23 +341,23 @@
     letter-spacing: -0.02em;
     color: #FD9222;
     padding-top: 18px;
+    padding-top: 0;
 
 }
 .footer-span {
     color: #FFFFFF;
 }
 .footer-container-adress {
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 14px;
+    /*display: block;*/
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-right: 63px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
 
-position: absolute;
-width: 164px;
-height: 72px;
-left: 875px;
-/*top: calc(50% - 72px/2 - 49px);*/
 }
 .foter-contact-text {
   
@@ -369,7 +373,7 @@ left: 875px;
 }
 .contacts {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 14px;
@@ -398,7 +402,6 @@ left: 875px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     transform: rotate(180deg);
 }
-
 
 
 }
