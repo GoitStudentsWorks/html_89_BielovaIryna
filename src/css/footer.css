@@ -204,7 +204,7 @@
     height: 262px;
     left: 0px;
     top: 5856px;
-    background: #1E1823;
+    background: var(--dark-color);
 }
 .container {
     width: 768px;
@@ -320,7 +320,7 @@
     height: 270px;
     left: 0px;
     top: 4784px;
-    background: #1E1823;
+    background: var(--dark-color);
 }
 .container {
     width: 1200px;
