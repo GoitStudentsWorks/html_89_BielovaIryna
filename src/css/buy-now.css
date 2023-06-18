@@ -1,18 +1,4 @@
-/* BUY NOW MODAL */
-
-@media screen and (max-width: 767px) {
-  .modal-buy-now {
-    width: 311px;
-    padding: 24px 32px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .modal-buy-now {
-    width: 609px;
-    padding: 48px;
-  }
-}
+/* === BUY NOW MODAL ===*/
 
 .backdrop {
   position: fixed;
@@ -25,22 +11,10 @@
   transition: opacity var(--transition), visibility var(--transition);
 }
 
-/* .backdrop.is-hidden {
+.backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-} */
-
-.modal-buy-now {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 609px;
-  min-height: 1058px;
-  background-color: var(--light-color);
-  box-shadow: var(--border-color);
-  border-radius: 15px;
 }
 
 .buy-now-close-btn {
@@ -53,7 +27,7 @@
   padding: 0;
   cursor: pointer;
   border: none;
-  color: transparent;
+  background-color: transparent;
   transition: background-color var(--transition);
 }
 .buy-now-close-icon {
@@ -62,11 +36,11 @@
 
 .buy-now-header {
   font-style: normal;
-  font-weight: var(--mobile-title-font-weight);
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: var(--secondary-text-font-weight);
+  font-size: var(--mobile-title-font-size);
+  line-height: var(--mobile-titile-line-height);
   text-align: center;
-  letter-spacing: -0.03em;
+  letter-spacing: var(--mobile-title-letter-spasing);
   text-transform: uppercase;
   color: var(--orange-color);
   margin-bottom: 32px;
@@ -97,8 +71,8 @@
   border-radius: 100px;
   font-style: normal;
   font-weight: var(--mobile-title-font-weight);
-  font-size: 14px;
-  line-height: 1.2;
+  font-size: var(--main-text-font-size);
+  line-height: var(--mobile-titile-line-height);
   color: var(--main-dark-color);
   padding: 6px 16px;
 }
@@ -121,10 +95,9 @@
 
 .buy-now-form-label {
   display: flex;
-  font-style: normal;
   font-weight: var(--main-teaxt-font-weight);
-  font-size: 14px;
-  line-height: 1.2;
+  font-size: var(--secondary-text-font-size);
+  line-height: var(--secondary-text-line-height);
   letter-spacing: var(--main-text-letter-spacing);
   color: var(--black-color);
   margin-bottom: 8px;
@@ -141,21 +114,10 @@
 }
 
 ::placeholder {
+  font-size: var(--main-text-font-size);
+  line-height: var(--main-text-line-height);
   color: var(--input-placeholder-color);
-}
-
-.buy-now-input-item {
-  border: 1.5px solid var(--input-border-color);
-  border-radius: 13px;
-  padding: 22px 24px;
-  background-color: transparent;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.22;
   letter-spacing: var(--main-text-letter-spacing);
-  color: var(--main-dark-color);
-  outline: transparent;
 }
 
 .buy-now-input-item:focus {
@@ -190,8 +152,8 @@
   font-family: inherit;
   font-style: normal;
   font-weight: var(--mobile-title-font-weight);
-  font-size: 14px;
-  line-height: 1.2;
+  font-size: var(--main-text-font-size);
+  line-height: var(--mobile-titile-line-height);
   color: var(--white-color);
 }
 
@@ -202,12 +164,29 @@
   transition: transform var(--transition);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 280px) and (max-width: 767px) {
+  .modal-buy-now {
+    width: 95%;
+    max-width: 392px;
+    height: 95%;
+    max-height: 584px;
+    padding: 24px 32px;
+    overflow: scroll;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--light-color);
+    box-shadow: var(--border-color);
+    border-radius: 15px;
+  }
+
   .buy-now-list {
     flex-direction: column;
     row-gap: 8px;
     margin-bottom: 32px;
   }
+
   .buy-now-list-item {
     display: flex;
     width: 100%;
@@ -231,6 +210,18 @@
     display: flex;
     flex-direction: column;
     row-gap: 14px;
+  }
+
+  .buy-now-input-item {
+    border: 1.5px solid var(--input-border-color);
+    border-radius: 13px;
+    padding: 18px 14px;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 1.22;
+    letter-spacing: var(--main-text-letter-spacing);
+    color: var(--main-dark-color);
+    outline: transparent;
   }
 
   .buy-now-input-wrapper {
@@ -297,6 +288,25 @@
 }
 
 @media screen and (min-width: 768px) {
+  .modal-buy-now {
+    max-width: 609px;
+    min-height: 1058px;
+    padding: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--light-color);
+    box-shadow: var(--border-color);
+    border-radius: 15px;
+  }
+
+  .buy-now-header {
+    font-weight: var(--mobile-title-font-weight);
+    font-size: 24px;
+    line-height: 28px;
+  }
+
   .buy-now-list {
     column-gap: 16px;
     margin-bottom: 40px;
@@ -327,6 +337,13 @@
     column-gap: 21px;
   }
 
+  .buy-now-form-label {
+    font-size: var(--main-text-font-size);
+    font-weight: var(--secondary-text-font-weight);
+    line-height: var(--form-text-line-height);
+    letter-spacing: var(--main-text-letter-spacing);
+  }
+
   .buy-now-input-item {
     width: 513px;
     height: 66px;
@@ -335,6 +352,18 @@
 
   .buy-now-input-item.user-name {
     width: 246px;
+  }
+
+  .buy-now-input-item {
+    border: 1.5px solid var(--input-border-color);
+    border-radius: 13px;
+    padding: 22px 24px;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 1.22;
+    letter-spacing: var(--main-text-letter-spacing);
+    color: var(--main-dark-color);
+    outline: transparent;
   }
 
   .buy-now-input-wrapper {
@@ -375,7 +404,7 @@
     height: 32px;
     left: 74px;
     font-size: 18px;
-    font-weight: var(--main-teaxt-font-weight);
+    font-weight: var(--main-text-font-weight);
   }
 
   .buy-now-input-item.buy-now-input-phone {
