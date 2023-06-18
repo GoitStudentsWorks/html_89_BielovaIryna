@@ -4,23 +4,75 @@
 
 
 
-.title {
-font-family: 'Montserrat';
-font-weight: 600;
-font-size: 24px;
-line-height: 1.17;
-/* identical to box height, or 117% */
-
-text-align: center;
-letter-spacing: -0.03em;
-text-transform: uppercase;
-
-color: #FD9222;
+.top-sellers-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.17;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: -0.03em;
+        margin-bottom: 50px;
+        color:#111111;
 }
 
 
+.top-sellers-logo {
+    color: var(--orange-color);
+}
+
+.container-topsell {
+margin-bottom: 32px;}
+
+.top-sellers {display: flex;
+    gap: 16px;
+}
+
+.top-sellers-item {
+    width: calc(100% - 32px / 3);
+}
+
+.top-sellers-img {
+background: url(img02.png);
+border-radius: 15px;
+}
+
+.container-sellers {display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+
+.top-sell-description {
+    max-width: 407px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #111111;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.order-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    border-radius: 100px;
+    padding: 14px 40px;
+    color: #FFFFFF;
+    background-color: #fd9222;
+    min-width: 144px;
+    height: 45px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .order-btn:focus,
 .order-btn:hover {
-    background-color: var(--accent-color);
+    color:#FD9222;
+    background-color: #FCF1E0;
 }
