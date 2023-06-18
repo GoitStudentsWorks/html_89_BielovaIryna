@@ -35,7 +35,7 @@
     --main-text-line-height: 1.21;
     --main-text-letter-spacing: -0.02em;
     --main-text-secondary-font-weight: 400;
-    --botton-font-weight: 600;
+    --button-font-weight: 600;
     --form-text-line-height: 1.29;
     --secondary-text-font-size: 12px;
     --secondary-text-font-weight: 500;
@@ -72,4 +72,11 @@ body {
     .container {
         width: 1200px;
     }
+}
+@media screen and (max-width:374px) {
+    .top-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+	
 }
