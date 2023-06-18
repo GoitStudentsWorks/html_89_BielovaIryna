@@ -35,16 +35,15 @@
 
 row-gap: 32px;
 column-gap: 60px;
-
         }
 }
 @media screen and (min-width: 1200px) {
 	.advantages-container{
-        padding-bottom: 50px;
+        padding-bottom: 50px;icon-video-play
     }
     .advantages-list{
     flex-wrap: nowrap; 
-    gap:70px;
+    gap: 70px;
     }
 	}
   .advantages-icons-box{
@@ -61,7 +60,7 @@ margin-bottom: 22px;
 
 font-weight: var(--mobile-title-font-weight);
 font-size: var(--secondary-title-font-size);
-line-height: calc(--secondary-title-line-height);
+line-height: var(--secondary-title-line-height);
 color: var(--white-color);
 margin-bottom: 18px;
 }
