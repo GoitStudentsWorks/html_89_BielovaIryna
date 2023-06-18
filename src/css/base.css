@@ -19,7 +19,7 @@
     --section-title-font-size: 24px;
     --section-title-letter-spasing: -0.3em;
     --section-title-line-height: 1.17;
-    --section-title-font-weight: 600px;
+    --section-title-font-weight: 600;
     --mobile-title-font-size: 20px;
     --mobile-title-font-weight: 600;
     --mobile-titile-line-height: 1.2;
@@ -28,25 +28,24 @@
     --secondary-title-font-size: 18px;
     --secondary-title-font-weight: 400;
     --secondary-title-line-height: 1.22;
+    --secondary-title-second-line-height:1.33;
     --secondary-title-letter-spasing: -0.02em;
     --main-text-font-size: 14px;
-    --main-teaxt-font-weight: 500;
+    --main-text-font-weight: 500;
     --main-text-line-height: 1.21;
     --main-text-letter-spacing: -0.02em;
     --main-text-secondary-font-weight: 400;
-    --botton-font-weight: 600;
+    --button-font-weight: 600;
     --form-text-line-height: 1.29;
     --secondary-text-font-size: 12px;
     --secondary-text-font-weight: 500;
     --secondary-text-card-font-weight: 400;
     --secondary-text-line-height: 1.17;
     --secondary-text-letter-spasing: -0.02em;
-    --card-botton-text-font-size: 10px;
-    --card-botton-text-font-weight: 400;
-    --card-botton-text-line-height: 1.2;
-    --logo-font-size: 18px;
-    --logo-font-weight: 700;
-    --logo-line-height: 1.11;
+    --card-button-text-font-size: 10px;
+    --card-button-text-font-weight: 400;
+    --card-button-text-line-height: 1.2;
+    --logo-secondary-line-height: 1.11;
     --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 body {
@@ -73,4 +72,11 @@ body {
     .container {
         width: 1200px;
     }
+}
+@media screen and (max-width:374px) {
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+	
 }
