@@ -100,7 +100,6 @@
   letter-spacing: var(--mobile-title-letter-spasing);
   color: rgba(17, 17, 17, 1);
   margin-bottom: 8px;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .button-chocolate {
   padding: 6px 16px;
@@ -111,7 +110,6 @@
   font-size: var(--card-botton-text-font-size);
   line-height: var(--card-botton-text-line-height);
   border-radius: 35px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .orange-button-chocolate {
   background-color: var(--orange-color);
@@ -150,7 +148,6 @@
   font-weight: var(--secondary-title-font-weight);
   font-size: var(--main-text-font-size);
   line-height: var(--form-text-line-height);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .link-chocolate-picture {
   display: block;
