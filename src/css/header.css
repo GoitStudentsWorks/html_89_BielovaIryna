@@ -78,7 +78,7 @@
 		align-items: center;
 		gap: 24px;
 		font-size: var(--main-text-font-size);
-		font-weight: var(--main-teaxt-font-weight);
+		font-weight: var(--main-text-font-weight);
 		line-height: var(--header-line-height);
 		letter-spacing: var(--main-text-letter-spacing);
 		color: var(--main-dark-color);

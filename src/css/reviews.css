@@ -15,7 +15,7 @@
 }
 
 .review-title {
-  font-weight: var(--botton-font-weight);
+  font-weight: var(--button-font-weight);
   font-size: var(--mobile-title-font-size);
   line-height: var(--mobile-titile-line-height);
   text-transform: uppercase;
@@ -105,7 +105,7 @@
   color: var(--main-dark-color);
   border-radius: 100px;
   padding: 12px 28px;
-  font-weight: var(--botton-font-weight);
+  font-weight: var(--button-font-weight);
   font-size: var(--main-text-font-size);
   line-height: var(--main-text-line-height);
   margin-top: 32px;
@@ -147,7 +147,7 @@
 
 @media screen and (min-width: 768px) {
   .swiper-pagination-bullets {
-    margin-top: 32px;
+    margin-top: 40px;
   }
 }
 
