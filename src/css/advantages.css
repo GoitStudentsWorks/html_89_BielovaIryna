@@ -80,7 +80,7 @@ color:var(--light-text-color);
     .advantages-list{
     justify-content: center;
     }
-    .advantages-list-items{
+    .advantages-list-items:not(:last-child){
         padding-right: 18px;
         position: relative;}
 
