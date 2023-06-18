@@ -20,7 +20,7 @@
   line-height: var(--mobile-titile-line-height);
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: var(--mobile-title-letter-spasing);
+  letter-spacing: var(--mobile-title-letter-spacing);
   margin-bottom: 32px;
   color: var(--main-dark-color);
 }
