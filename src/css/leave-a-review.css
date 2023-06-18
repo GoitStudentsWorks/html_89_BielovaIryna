@@ -89,7 +89,7 @@
 }
 
 .review-modal .review-modal-text {
-  font-weight: var(--botton-font-weight);
+  font-weight: var(--button-font-weight);
   font-size: var(--mobile-title-font-size);
   line-height: var(--mobile-titile-line-height);
   letter-spacing: var(--mobile-title-letter-spasing);
@@ -295,7 +295,7 @@
   border-radius: 100px;
   border: none;
 
-  font-weight: var(--botton-font-weight);
+  font-weight: var(--button-font-weight);
   font-size: var(--main-text-font-size);
   line-height: var(--main-text-line-height);
   transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
