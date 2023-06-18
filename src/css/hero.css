@@ -41,7 +41,7 @@ screen and (min-resolution: 2dppx) and (min-width:375px) and (max-width:767px){
    font-weight: var(--secondary-text-font-weight);
    font-size: var(--mobile-title-font-size);
    line-height: var( --mobile-titile-line-height);
-   letter-spacing: var(--mobile-title-letter-spasing);
+   letter-spacing: var(--mobile-title-letter-spacing);
     color: var(--white-color);
      margin-bottom: 32px;
 }
@@ -96,7 +96,7 @@ color: var(--orange-color);
     font-weight: var( --main-teaxt-font-weight);
     font-size: var(--secondary-text-font-size);
     line-height: var( --secondary-text-line-height);
-    letter-spacing: var(--mobile-title-letter-spasing);
+    letter-spacing: var(--mobile-title-letter-spacing);
     color: var(--white-color);
     display: flex;
     justify-content: flex-start;
