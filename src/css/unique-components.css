@@ -70,7 +70,7 @@
   border-radius: 15px;
 }
 
-.h3-chocolate {
+.p-chocolate {
   padding-left: 28px;
   text-transform: uppercase;
   font-weight: var(--mobile-title-font-weight);
@@ -78,10 +78,10 @@
   line-height: var(--form-text-line-height);
   letter-spacing: var(--section-title-letter-spacing);
 }
-.h3-chocolate-white {
+.p-chocolate-white {
   color: var(--white-color);
 }
-.h3-chocolate-gray {
+.p-chocolate-gray {
   color: var(--main-dark-color);
 }
 .list-chocolate-card {
