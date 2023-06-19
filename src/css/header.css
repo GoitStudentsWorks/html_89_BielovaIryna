@@ -13,7 +13,7 @@
     font-size: var(--main-text-font-size);
     font-weight: var(--logo-font-weight);
     line-height: var(--logo-line-height);
-    letter-spacing: var(--logo-letter-spasing);
+    letter-spacing: var(--logo-letter-spacing);
     gap: 4px;
     
 }
