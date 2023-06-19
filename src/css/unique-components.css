@@ -149,7 +149,6 @@
 }
 .link-chocolate-picture {
   display: block;
-  transition: box-shadow var(--transition);
 }
 .chocolate-image {
   margin-left: auto;
