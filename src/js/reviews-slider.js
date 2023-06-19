@@ -2,7 +2,6 @@ let swiper = new Swiper('.swiper', {
 
   // Optional parameters
   direction: 'horizontal',
-  loop: false,
 
 
   // If we need pagination
@@ -24,7 +23,11 @@ let swiper = new Swiper('.swiper', {
       spaceBetween: 28
     }
   },
+  slideToClickedSlide: true,
+  loop: true,
+  loopFillGroupWithBlank: true,
   autoplay: {
     delay: 1500,
+    disableOnInteraction: false,
   }
 });

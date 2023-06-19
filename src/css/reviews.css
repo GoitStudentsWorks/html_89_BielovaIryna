@@ -135,6 +135,10 @@
 
 /*=====  swiper  ======*/
 
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+
 .swiper-pagination-bullets {
 	display: flex;
 	gap: 13px;
