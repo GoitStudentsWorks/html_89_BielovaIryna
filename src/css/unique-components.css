@@ -190,7 +190,7 @@
   }
   .title-third-section {
     width: 411px;
-    font-weight: var(--botton-font-weight);
+    font-weight: var(--button-font-weight);
     font-size: var(--section-title-font-size);
     line-height: var(--secondary-text-line-height);
   }
