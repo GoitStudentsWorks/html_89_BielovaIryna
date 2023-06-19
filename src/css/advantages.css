@@ -77,7 +77,7 @@ color:var(--light-text-color);
 @media screen and (min-width: 1200px) {
    
     .advantages-list{
-    justify-content: center;
+    justify-content: space-between;
     }
     .advantages-list-items:not(:last-child){
         padding-right: 18px;
