@@ -70,18 +70,18 @@
   border-radius: 15px;
 }
 
-.p-chocolate {
+.h3-chocolate {
   padding-left: 28px;
-
+  text-transform: uppercase;
   font-weight: var(--mobile-title-font-weight);
   font-size: var(--main-text-font-size);
   line-height: var(--form-text-line-height);
   letter-spacing: var(--section-title-letter-spacing);
 }
-.p-chocolate-white {
+.h3-chocolate-white {
   color: var(--white-color);
 }
-.p-chocolate-gray {
+.h3-chocolate-gray {
   color: var(--main-dark-color);
 }
 .list-chocolate-card {
@@ -137,6 +137,7 @@
 }
 
 .chocolate-two-button {
+  display: flex;
   margin-bottom: 14px;
 }
 .p-chocolate-description {
