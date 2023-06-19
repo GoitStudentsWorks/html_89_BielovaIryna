@@ -69,7 +69,6 @@
 
   mix-blend-mode: normal;
   border-radius: 15px;
-  box-shadow: rgba(255, 255, 255, 1);
 }
 
 .p-chocolate {
@@ -116,7 +115,6 @@
   background-color: var(--orange-color);
   color: var(--white-color);
   margin-right: 6px;
-  box-shadow: rgba(253, 146, 34, 1);
 }
 .orange-button-chocolate:hover,
 .orange-button-chocolate:focus {
@@ -130,13 +128,12 @@
   background-color: #fafafa;
   color: var(--main-dark-color);
   border: 1px solid var(--orange-color);
-  box-shadow: rgba(252, 241, 224, 1);
 }
 .white-button-chocolate:hover,
 .white-button-chocolate:focus {
   background-color: var(--orange-color);
   color: var(--white-color);
-  box-shadow: rgba(253, 146, 34, 1);
+
   transition: background-color var(--transition), color var(--transition);
 }
 
