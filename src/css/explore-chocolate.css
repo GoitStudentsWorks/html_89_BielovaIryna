@@ -44,7 +44,7 @@
 .explore-button {
   font-weight: 600;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.22;
 
   color: #ffffff;
   display: flex;

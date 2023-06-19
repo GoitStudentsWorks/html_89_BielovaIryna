@@ -36,9 +36,9 @@
   border-top-right-radius: 10px;
 }
 .subscribe-text {
-  font-weight: 600;
+  font-weight: var(--mobile-title-font-weight);
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 
   letter-spacing: -0.03em;
   text-transform: uppercase;
@@ -67,7 +67,7 @@
 .subscribe-label-input::placeholder {
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.21;
 
   display: flex;
   align-items: center;
@@ -87,6 +87,7 @@
 
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   border-radius: 25px;
+  margin-left: 24px;
 }
 .subscribe-form {
   margin-top: 28px;
@@ -151,6 +152,7 @@
   .subscribe-label-input {
     width: 313px;
     height: 52px;
+    margin-left: 0;
   }
   .subscribe-button-form {
     width: 137px;
@@ -166,4 +168,11 @@
   .margin-for-text {
     margin-top: 15px;
   }
+}
+.is-hidden-subscribe {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity var(--transition), visibility var(--transition),
+    pointer-events var(--transition);
 }
