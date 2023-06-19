@@ -13,7 +13,7 @@
     font-size: var(--main-text-font-size);
     font-weight: var(--logo-font-weight);
     line-height: var(--logo-line-height);
-    letter-spacing: var(--logo-letter-spasing);
+    letter-spacing: var(--logo-letter-spacing);
     gap: 4px;
     
 }
@@ -78,7 +78,7 @@
 		align-items: center;
 		gap: 24px;
 		font-size: var(--main-text-font-size);
-		font-weight: var(--main-teaxt-font-weight);
+		font-weight: var(--main-text-font-weight);
 		line-height: var(--header-line-height);
 		letter-spacing: var(--main-text-letter-spacing);
 		color: var(--main-dark-color);
@@ -99,10 +99,4 @@
 	}
 
 }
-@media screen and (max-width:374px) {
-    .top-container{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-	
-}
+
