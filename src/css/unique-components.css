@@ -23,7 +23,7 @@
   font-size: var(--main-text-font-size);
   text-align: center;
   width: 100%;
-  letter-spacing: var(--secondary-letter-spacing-title);
+  letter-spacing: var(--main-text-letter-spacing);
   margin: 0 auto 32px;
 }
 .third-section {
@@ -67,7 +67,6 @@
   overflow: auto;
   background: var(--white-color);
 
-  mix-blend-mode: normal;
   border-radius: 15px;
 }
 
@@ -77,7 +76,7 @@
   font-weight: var(--mobile-title-font-weight);
   font-size: var(--main-text-font-size);
   line-height: var(--form-text-line-height);
-  letter-spacing: var(--secondary-letter-spacing-title);
+  letter-spacing: var(--section-title-letter-spacing);
 }
 .p-chocolate-white {
   color: var(--white-color);
@@ -105,7 +104,7 @@
   padding: 6px 16px;
   margin-left: auto;
   margin-right: auto;
-  font-family: var(--font-family);
+
   font-weight: var(--secondary-title-font-weight);
   font-size: var(--card-button-text-font-size);
   line-height: var(--card-button-text-line-height);
