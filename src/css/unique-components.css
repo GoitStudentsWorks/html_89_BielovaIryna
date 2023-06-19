@@ -8,7 +8,7 @@
   max-width: 283px;
   letter-spacing: var(--mobile-title-letter-spacing);
   text-transform: uppercase;
-  font-weight: 800px;
+  font-weight: var(--mobile-title-font-weight);
   font-size: var(--mobile-title-font-size);
   line-height: var(--card-button-text-line-height);
   text-align: center;
@@ -63,7 +63,7 @@
   height: 100%;
   left: 0;
   top: 0;
-  letter-spacing: 0.02em;
+
   overflow: auto;
   background: var(--white-color);
 
@@ -84,7 +84,7 @@
   color: var(--white-color);
 }
 .p-chocolate-gray {
-  color: #111111;
+  color: var(--main-dark-color);
 }
 .list-chocolate-card {
   display: flex;
@@ -94,7 +94,7 @@
 }
 .subtitle-abs-overlay-chocolate {
   text-transform: uppercase;
-  font-family: var(--font-family);
+
   font-weight: var(--button-font-weight);
   font-size: var(--logo-font-size);
   line-height: var(--card-button-text-line-height);
@@ -128,7 +128,7 @@
 
 .white-button-chocolate {
   background-color: #fafafa;
-  color: #111111;
+  color: var(--main-dark-color);
   border: 1px solid var(--orange-color);
   box-shadow: rgba(252, 241, 224, 1);
 }
@@ -145,7 +145,7 @@
 }
 .p-chocolate-description {
   text-align: left;
-  font-family: var(--font-family);
+
   font-weight: var(--secondary-title-font-weight);
   font-size: var(--main-text-font-size);
   line-height: var(--form-text-line-height);
