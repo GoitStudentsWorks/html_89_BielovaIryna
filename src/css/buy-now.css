@@ -39,7 +39,7 @@
   font-size: var(--mobile-title-font-size);
   line-height: var(--mobile-titile-line-height);
   text-align: center;
-  letter-spacing: var(--mobile-title-letter-spasing);
+  letter-spacing: var(--mobile-title-letter-spacing);
   text-transform: uppercase;
   color: var(--orange-color);
   margin-bottom: 32px;
@@ -93,7 +93,7 @@
 
 .buy-now-form-label {
   display: flex;
-  font-weight: var(--main-teaxt-font-weight);
+  font-weight: var(--main-text-font-weight);
   font-size: var(--secondary-text-font-size);
   line-height: var(--secondary-text-line-height);
   letter-spacing: var(--main-text-letter-spacing);
@@ -103,7 +103,7 @@
 
 .buy-now-tel-code {
   position: absolute;
-  font-weight: var(--main-teaxt-font-weight);
+  font-weight: var(--main-text-font-weight);
   font-size: var(--main-text-font-size);
   line-height: var(--mobile-titile-line-height);
   letter-spacing: var(--main-text-letter-spacing);
@@ -256,7 +256,7 @@
     height: 25px;
     left: 50px;
     font-size: var(--main-text-font-size);
-    font-weight: var(--main-teaxt-font-weight);
+    font-weight: var(--main-text-font-weight);
   }
   .buy-now-input-wrapper .buy-now-input-phone {
     padding-left: 114px;
