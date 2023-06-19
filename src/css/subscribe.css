@@ -88,6 +88,7 @@
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   border-radius: 25px;
   margin-left: 24px;
+  transition: border var(--transition);
 }
 .subscribe-form {
   margin-top: 28px;
@@ -114,6 +115,7 @@
 
   color: #ffffff;
   position: absolute;
+  transition: background var(--transition), color var(--transition);
 }
 .subscribe-button-form:hover,
 .subscribe-button-form:focus {
@@ -167,6 +169,12 @@
   }
   .margin-for-text {
     margin-top: 15px;
+  }
+  .subscribe-label-input::placeholder {
+    font-size: 18px;
+    line-height: 1.22;
+
+    color: rgba(64, 64, 64, 0.3);
   }
 }
 .is-hidden-subscribe {
