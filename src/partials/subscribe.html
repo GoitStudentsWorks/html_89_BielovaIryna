@@ -6,7 +6,7 @@
       </svg>
     </button>
     <div class="subscribe-bacground-img"></div>
-    <p class="subscribe-text">Explore our</p>
+    <p class="subscribe-text margin-for-text">Explore our</p>
     <p class="subscribe-text">
       <span class="subscribe-text-span">new chocolate</span> first!
     </p>
@@ -17,6 +17,9 @@
           class="subscribe-label-input"
           name="email-subscribe"
           type="email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          required
+          title
         />
       </label>
       <button class="subscribe-button-form" type="submit">Subscribe</button>

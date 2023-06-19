@@ -1,3 +1,10 @@
+@media screen and (max-width: 768px) and (min-device-pixel-ratio: 2),
+  screen and (max-width: 768px) and (min-resolution: 192dpi),
+  screen and (max-width: 768px) and (min-resolution: 2dppx) {
+  .subscribe-bacground-img {
+    background-image: url(/img/Subscribe/mobile/chocolate-m@2x.jpg);
+  }
+}
 .subscribe-backdrop {
   position: fixed;
   left: 0;
@@ -5,22 +12,23 @@
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
+  z-index: 4;
 }
 .subscribe-modal {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 538px;
-  height: 412px;
+  width: 311px;
+  height: 350px;
   background: #ffffff;
   border-radius: 10px;
-  padding: 218px 40px 40px 40px;
+  padding-top: 169px;
 }
 .subscribe-bacground-img {
-  width: 538px;
-  height: 196px;
-  background-image: url(/img/Subscribe/tablet-desc/chocolate.jpg);
+  width: 311px;
+  height: 169px;
+  background-image: url(/img/Subscribe/mobile/chocolate-mobile.jpg);
   position: absolute;
   top: 0;
   left: 0;
@@ -29,13 +37,16 @@
 }
 .subscribe-text {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 24px;
 
   letter-spacing: -0.03em;
   text-transform: uppercase;
 
   color: #111111;
+  margin-left: auto;
+  margin-right: auto;
+  width: 263px;
 }
 .subscribe-text-span {
   color: #fd9222;
@@ -46,8 +57,8 @@
 }
 .subscribe-close-svg {
   stroke: #ffffff;
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
   position: absolute;
   top: 31px;
   right: 31px;
@@ -55,8 +66,8 @@
 }
 .subscribe-label-input::placeholder {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 17px;
 
   display: flex;
   align-items: center;
@@ -68,15 +79,14 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 14px 24px;
+  padding: 14px 18px;
   gap: 40px;
 
-  width: 313px;
-  height: 52px;
+  width: 263px;
+  height: 45px;
 
   border: 1.5px solid rgba(17, 17, 17, 0.05);
-  border-radius: 30px;
-  background-color: transparent;
+  border-radius: 25px;
 }
 .subscribe-form {
   margin-top: 28px;
@@ -91,8 +101,9 @@
   gap: 14px;
   isolation: isolate;
 
-  width: 137px;
-  height: 52px;
+  width: 100px;
+  height: 45px;
+  left: 187px;
 
   background: #fd9222;
   border-radius: 100px;
@@ -101,10 +112,58 @@
   line-height: 17px;
 
   color: #ffffff;
-  margin-left: 8px;
+  position: absolute;
 }
 .subscribe-button-form:hover,
 .subscribe-button-form:focus {
   background: #fcf1e0;
   color: #fd9222;
+}
+.subscribe-label-input:focus {
+  border: 1.5px solid rgba(#ffffff);
+}
+@media screen and (min-width: 768px) {
+  .subscribe-modal {
+    width: 538px;
+    height: 412px;
+    border-radius: 10px;
+    padding-top: 196px;
+  }
+  .subscribe-bacground-img {
+    width: 538px;
+    height: 196px;
+    background-image: url(/img/Subscribe/tablet-desc/chocolate.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .subscribe-bacground-img {
+      background-image: url(/img/Subscribe/tablet-desc/chocolate@2x.jpg);
+    }
+  }
+  .subscribe-text {
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 40px;
+    margin-right: 0;
+    width: 298px;
+  }
+  .subscribe-label-input {
+    width: 313px;
+    height: 52px;
+  }
+  .subscribe-button-form {
+    width: 137px;
+    height: 52px;
+    position: static;
+    margin-left: 8px;
+  }
+  .subscribe-form {
+    margin-top: 28px;
+    display: flex;
+    margin-left: 40px;
+  }
+  .margin-for-text {
+    margin-top: 15px;
+  }
 }
