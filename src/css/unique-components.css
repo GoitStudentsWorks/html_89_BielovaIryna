@@ -162,6 +162,8 @@ img {
 .item-chokolate-card .back {
   padding: 28px;
   transform: rotateY(180deg);
+  background-color: var(--white-color);
+  /*overflow-y: scroll;*/
 }
 .item-chokolate-card:hover .front {
   transform: rotateY(-180deg);
