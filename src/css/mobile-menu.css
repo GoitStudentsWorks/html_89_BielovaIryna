@@ -11,15 +11,16 @@
 	background-color: var(--dark-color);
 	color: var(--white-color);
 	visibility: hidden;
-	opacity: 0;
+	transform: translate(+100%);
 	pointer-events: none;
 	overflow: auto;
 	z-index: 999;
+	transition: transform var(--transition);
 	
 }
 .mobile-menu.is-open {
 	visibility: visible;
-	opacity: 1;
+	transform: translate(0);
 	pointer-events: auto;
 }
 .mobile-menu-container{
@@ -62,6 +63,7 @@
 }
 .mobile-menu-list{
 	padding-left: 30px;
+	margin-bottom: 24px;
 }
 .mobile-menu-item{
 	font-size: var(--main-text-font-size);
