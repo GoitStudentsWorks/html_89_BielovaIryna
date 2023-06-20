@@ -46,12 +46,10 @@ margin-bottom: 32px;
     letter-spacing: var(--secondary-title-letter-spacing);
     color: var(--main-dark-color);
     margin-top: 20px;
-    margin-bottom: 32px;
 }
 
 .order-btn {
     display: flex;
-    align-items: flex-start;
     margin-left: auto;
     margin-right: auto;
     font-weight: var(--button-font-weight);
@@ -114,8 +112,6 @@ margin-bottom: 32px;
         line-height: var(--form-text-line-height);
         letter-spacing: var(--secondary-text-letter-spacing);
         color: var(--main-dark-color);
-        order: 0;
-        flex-grow: 0;
     }
     
     .container-sellers {
