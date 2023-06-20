@@ -16,7 +16,7 @@
   font-size: var(--mobile-title-font-size);
   line-height: var(--mobile-titile-line-height);
   text-align: center;
-  letter-spacing: var(--mobile-title-letter-spasing);
+  letter-spacing: var(--mobile-title-letter-spaсing);
   text-transform: uppercase;
   color: var(--main-dark-color);
   margin-bottom: 32px;
@@ -45,44 +45,7 @@
   }
 }
 
-/*===========Pictures&Video==================*/
-/*====================Picture-Styles================
-.howmade-img {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
-  border-radius: 15px;
-}
-
-.howmade-media{
-  position: relative;
-  width: 335px;
-}
-@media screen and (min-width: 768px) {
-  .howmade-media {
-   width: 614px;
-  }}
-
-  @media screen and (min-width: 1200px) {
-    .howmade-media {
-      width: 600px;
-    }}
-
-.howmade-icon-play {
-  position: absolute;
-  top: calc(50% - 17px);
-  left: calc(50% - 17px);
-}
-@media screen and (min-width: 768px) {
-  .howmade-icon-play {
-    width: 44px;
-    height: 44px;
-    top: calc(50% - 22px);
-    left: calc(50% - 22px);
-
-  }
-}
-
-*/
-/*===========Video-Styles==================*/
+/
 .howmade-video {
   width: 335px;
   height: 500px;
