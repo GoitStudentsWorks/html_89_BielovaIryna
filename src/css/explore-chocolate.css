@@ -1,5 +1,4 @@
 .explore-section {
-  padding: 72px 0;
   margin-right: auto;
   margin-left: auto;
   background-image: linear-gradient(
@@ -13,48 +12,52 @@
   max-width: 375px;
   background-size: cover;
 }
+.explore-container {
+  padding: 72px 0;
+}
 .explore-title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.16;
+  font-weight: var(--section-title-font-weight);
+  font-size: var(--mobile-title-font-size);
+  line-height: var(--card-button-text-line-heigh);
   max-width: 378px;
   margin-right: auto;
   margin-left: auto;
-  letter-spacing: -0.03em;
+  letter-spacing: var(--mobile-title-letter-spasing);
 
-  color: #ffffff;
+  color: var(--white-color);
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 24px;
+  height: 56px;
 }
 .explore-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.28;
+  font-weight: var(--secondary-text-card-font-weight);
+  font-size: var(--main-text-font-size);
+  line-height: var(--form-text-line-height);
 
   text-align: center;
-  letter-spacing: -0.02em;
+  letter-spacing: var(--main-text-letter-spacing);
 
-  color: #ffffff;
+  color: var(--white-color);
   max-width: 467px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 24px;
 }
 .explore-button {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.22;
+  font-weight: var(--section-title-font-weight);
+  font-size: var(--main-text-font-size);
+  line-height: var(--main-text-line-height);
 
-  color: #ffffff;
+  color: var(--white-color);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 14px 40px;
+  padding: 12px 28px;
   gap: 14px;
-  max-width: 172px;
-  height: 50px;
-  background: #fd9222;
+  max-width: 128px;
+  height: 41px;
+  background: var(--orange-color);
   border-radius: 100px;
   margin-right: auto;
   margin-left: auto;
@@ -62,8 +65,8 @@
 }
 .explore-button:hover,
 .explore-button:focus {
-  background: #fcf1e0;
-  color: #fd9222;
+  background: var(--light-orange-color);
+  color: var(--orange-color);
 }
 @media screen and (max-width: 768px) and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -87,6 +90,15 @@
     .explore-section {
       background-image: url(/img/explore-chocolate-first/desctop/Subcribe-desc@2x.png);
     }
+  }
+  .explore-button {
+    width: 172px;
+    height: 50px;
+    padding: 14px 40px;
+    justify-content: center;
+  }
+  .explore-title {
+    max-width: 300px;
   }
 }
 @media screen and (min-width: 1200px) {
