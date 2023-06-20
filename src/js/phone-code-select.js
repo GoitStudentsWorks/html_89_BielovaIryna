@@ -311,7 +311,7 @@
 
   function searchCountry() {
     let search_query = search_box.value.toLowerCase();
-    for (option of options) {
+    for (const option of options) {
       let is_matched = option
         .querySelector('.country-name')
         .innerText.toLowerCase()
