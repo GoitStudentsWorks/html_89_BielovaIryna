@@ -71,7 +71,7 @@
 
   display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
+  letter-spacing: var(--secondary-title-letter-spasing);
 
   color: rgba(64, 64, 64, 0.3);
 }
@@ -119,7 +119,7 @@
 }
 .subscribe-button-form:hover,
 .subscribe-button-form:focus {
-  background: #fcf1e0;
+  background: var(--light-orange-color);
   color: var(--orange-color);
 }
 .subscribe-label-input:focus {
