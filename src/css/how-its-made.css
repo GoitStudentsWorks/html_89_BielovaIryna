@@ -14,7 +14,7 @@
 .howmade-titel {
   font-weight: var(--mobile-title-font-weight);
   font-size: var(--mobile-title-font-size);
-  line-height: var(--mobile-titile-line-height);
+  line-height: var(--section-title-line-height);
   text-align: center;
   letter-spacing: var(--mobile-title-letter-spasing);
   text-transform: uppercase;
@@ -147,7 +147,7 @@ padding-left: 12px;
 
 .howmade-list-items {
   font-size: var(--main-text-font-size);
-  line-height: var(--logo-line-heigh);
+  line-height: var(--logo-line-height);
   font-weight: var(--secondary-text-card-font-weight);
   letter-spacing: var(--main-text-letter-spacing);
    color: var(--main-dark-color);
