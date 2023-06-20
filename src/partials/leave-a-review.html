@@ -40,21 +40,29 @@
         <span class="review-form-name">Enter your email</span></label
       >
 
-      <label class="review-form-field" for="phone">
-        <span class="review-form-input-border">+380</span>
-        <input
-          class="review-form-input-phone"
-          type="tel"
-          id="phone"
-          name="phone"
-          required
-          pattern="\+?[0-9\s\-\(\)]+"
-          placeholder=" "
-        />
-        <span class="review-form-name-phone">Phone number</span>
-        <svg class="review-modal-icon-flag" width="24" height="18">
-          <use href="/img/sprite.svg#icon-ukr"></use>
-        </svg>
+      <label class="review-form-field select-box" for="phone">
+        <div class="selected-option">
+          <div>
+            <span class="iconify review-modal-icon-flag" data-icon="flag:ua-4x3"></span>
+            <strong class="review-form-input-border">+380</strong>
+          </div>
+          <input
+            class="review-form-input-phone"
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="\+?[0-9\s\-\(\)]+"
+            required
+            placeholder=" "
+          >
+          <span class="review-form-name-phone">Phone number</span>
+        </div>
+        <div class="options">
+          <input type="text" class="search-box" placeholder="Search Country Name">
+          <ol>
+
+          </ol>
+        </div>
       </label>
 
       <label class="review-form-field" for="comment">
