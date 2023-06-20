@@ -63,6 +63,7 @@
 }
 .mobile-menu-list{
 	padding-left: 30px;
+	margin-bottom: 24px;
 }
 .mobile-menu-item{
 	font-size: var(--main-text-font-size);
