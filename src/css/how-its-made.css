@@ -14,7 +14,7 @@
 .howmade-titel {
   font-weight: var(--mobile-title-font-weight);
   font-size: var(--mobile-title-font-size);
-  line-height: var(--section-title-line-height);
+  line-height: var(--mobile-titile-line-height);
   text-align: center;
   letter-spacing: var(--mobile-title-letter-spasing);
   text-transform: uppercase;
@@ -27,7 +27,8 @@
 @media screen and (min-width: 768px) {
   .howmade-titel {
     font-size: var(--section-title-font-size);
-       margin-bottom: 50px;
+    line-height: var(--section-title-line-height);
+     margin-bottom: 50px;
   }
    }
 
