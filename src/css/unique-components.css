@@ -73,7 +73,7 @@ img {
   font-size: var(--logo-font-size);
   line-height: var(--card-button-text-line-height);
   letter-spacing: var(--mobile-title-letter-spacing);
-  color: rgba(17, 17, 17, 1);
+  color: var(--main-dark-color);
   margin-bottom: 8px;
 }
 .button-chocolate {
@@ -118,7 +118,7 @@ img {
 }
 .p-chocolate-description {
   text-align: left;
-
+  color: var(--main-dark-color);
   font-weight: var(--secondary-title-font-weight);
   font-size: var(--main-text-font-size);
   line-height: var(--form-text-line-height);
@@ -129,6 +129,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 0 25px;
+  margin-bottom: 25px;
 }
 .item-chokolate-card {
   display: flex;
@@ -163,7 +164,7 @@ img {
   padding: 28px;
   transform: rotateY(180deg);
   background-color: var(--white-color);
-  /*overflow-y: scroll;*/
+  overflow-y: auto;
 }
 .item-chokolate-card:hover .front {
   transform: rotateY(-180deg);
