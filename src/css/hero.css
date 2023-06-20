@@ -137,7 +137,8 @@ color: var(--orange-color);
 
 
 .hero-scroll-link:hover .hero-scroll-icon{
-    fill: var(--white-color);    
+    fill: var(--white-color);  
+      
 }
 
 
