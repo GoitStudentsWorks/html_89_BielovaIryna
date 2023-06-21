@@ -1,12 +1,10 @@
 
 .footer {
     background-color: var(--dark-color);
-
-}
-.footer-container {
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
 
 .footer-text {
     
@@ -107,7 +105,7 @@
 
 
 @media screen and (min-width: 768px) {
-.footer-container {
+.footer {
     padding-top: 50px;
     padding-bottom: 50px;
 }

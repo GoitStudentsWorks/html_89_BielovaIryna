@@ -6,9 +6,9 @@
         <use href="./img/sprite.svg#icon-x-close"></use>
       </svg>
     </button>
-    <h1 class="buy-now-header">
+    <h2 class="buy-now-header">
       BUY<span class="buy-now-header-accent"> NOW</span>
-    </h1>
+    </h2>
 
     <!-- CHOCHOLATE BARS -->
     <ul class="list buy-now-list">
@@ -119,6 +119,7 @@
               pattern="^[a-zA-Z]+$"
               minlength="2"
               placeholder="Name"
+              title="Please enter Your Name"
             />
 
             <input
@@ -130,6 +131,7 @@
               pattern="^[a-zA-Z]+$"
               minlength="2"
               placeholder="Surname"
+              title="Please enter Your Surname"
             />
           </div>
         </fieldset>
@@ -147,6 +149,7 @@
             required
             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
             placeholder="Email"
+            title="Example: example@gmail.com"
           />
         </div>
       </div>
@@ -160,8 +163,9 @@
             type="tel"
             name="user-tel"
             required
-            pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9][2]"
+            pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
             placeholder="Phone number"
+            title="Enter Your Phone Number xx-xxx-xx-xx"
           />
           <svg class="phone-input-icon" width="24" height="24">
             <use href="./img/sprite.svg#icon-ukr"></use>
@@ -191,6 +195,7 @@
             maxlength="16"
             required
             placeholder="Enter card"
+            title="Enter Your Card Number 1234567890123456"
           />
           <svg class="card-input-icon" width="32" height="24">
             <use href="./img/sprite.svg#icon-mastercard"></use>

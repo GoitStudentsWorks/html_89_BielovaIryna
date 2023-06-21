@@ -10,11 +10,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 63px;
+  padding-bottom: 63px;
 }
-.explore-container {
-  padding-top: 72px;
-  padding-bottom: 72px;
-}
+
 .explore-title {
   font-weight: var(--section-title-font-weight);
   font-size: var(--mobile-title-font-size);
@@ -85,7 +84,10 @@
         rgba(0, 0, 0, 0.2)
       ),
       url(/img/explore-chocolate-first/planshet/Subcribe-tablet.jpg);
-  }
+      padding-top: 72px;
+      padding-bottom: 72px;
+    }
+
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -98,6 +100,7 @@
         url(/img/explore-chocolate-first/desctop/Subcribe-desc@2x.png);
     }
   }
+  
   .explore-button {
     width: 172px;
     height: 50px;
