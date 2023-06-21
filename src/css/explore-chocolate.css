@@ -9,17 +9,17 @@
     url(/img/explore-chocolate-first/mobile/Subcribe-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 375px;
   background-size: cover;
 }
 .explore-container {
-  padding: 72px 0;
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 .explore-title {
   font-weight: var(--section-title-font-weight);
   font-size: var(--mobile-title-font-size);
   line-height: var(--card-button-text-line-heigh);
-  max-width: 378px;
+  max-width: 291px;
   margin-right: auto;
   margin-left: auto;
   letter-spacing: var(--mobile-title-letter-spasing);
@@ -28,7 +28,6 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 24px;
-  height: 56px;
 }
 .explore-text {
   font-weight: var(--secondary-text-card-font-weight);
@@ -51,11 +50,9 @@
 
   color: var(--white-color);
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 12px 28px;
-  gap: 14px;
-  max-width: 128px;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
   height: 41px;
   background: var(--orange-color);
   border-radius: 100px;
@@ -72,23 +69,33 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .explore-section {
-    background-image: url(/img/explore-chocolate-first/mobile/Subcribe-mob@2x.jpg);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(/img/explore-chocolate-first/mobile/Subcribe-mob@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
   .explore-section {
-    max-width: 768px;
-    background-image: url(/img/explore-chocolate-first/planshet/Subcribe-tablet.jpg);
-  }
-  .explore-container {
-    padding-left: 20px;
-    padding-right: 20px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(/img/explore-chocolate-first/planshet/Subcribe-tablet.jpg);
   }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .explore-section {
-      background-image: url(/img/explore-chocolate-first/desctop/Subcribe-desc@2x.png);
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
+        ),
+        url(/img/explore-chocolate-first/desctop/Subcribe-desc@2x.png);
     }
   }
   .explore-button {
@@ -98,23 +105,31 @@
     justify-content: center;
   }
   .explore-title {
-    max-width: 300px;
+    max-width: 378px;
+    font-size: var(--section-title-font-size);
+    font-weight: var(--secondary-text-line-height);
   }
 }
 @media screen and (min-width: 1200px) {
   .explore-section {
-    max-width: 1200px;
-    background-image: url(/img/explore-chocolate-first/desctop/Subcribe-desc.jpg);
+    width: 1200px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(/img/explore-chocolate-first/desctop/Subcribe-desc.jpg);
   }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .explore-section {
-      background-image: url(/img/explore-chocolate-first/desctop/Subcribe-desc@2x.png);
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
+        ),
+        url(/img/explore-chocolate-first/desctop/Subcribe-desc@2x.png);
     }
   }
-}
-.explore-container {
-  padding-left: 24px;
-  padding-right: 24px;
 }
