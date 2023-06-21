@@ -40,7 +40,7 @@
         <span class="review-form-name">Enter your email</span></label
       >
 
-      <label class="review-form-field select-box" for="phone">
+      <div class="review-form-field select-box">
         <div class="selected-option">
           <div>
             <span class="iconify review-modal-icon-flag" data-icon="flag:ua-4x3"></span>
@@ -51,7 +51,7 @@
             type="tel"
             id="phone"
             name="phone"
-            pattern="\+?[0-9\s\-\(\)]+"
+            pattern="+[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}"
             required
             placeholder=" "
           >
@@ -63,7 +63,7 @@
 
           </ol>
         </div>
-      </label>
+      </div>
 
       <label class="review-form-field" for="comment">
         <textarea
