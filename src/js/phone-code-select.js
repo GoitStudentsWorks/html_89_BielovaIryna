@@ -271,7 +271,7 @@
     ],
     select_box = document.querySelector('.options'),
     search_box = document.querySelector('.search-box'),
-    input_box = document.querySelector('input[type="tel"]'),
+    input_box = document.querySelector('.review-form-input-phone'),
     selected_option = document.querySelector('.selected-option div');
 
   let options = null;
