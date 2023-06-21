@@ -468,7 +468,7 @@ input.search-box::placeholder {
 .select-box ol {
     list-style: none;
     max-height: 162px;
-    overflow: overlay;
+    overflow: scroll;
 
     padding: 0 0 0 5px;
 }
