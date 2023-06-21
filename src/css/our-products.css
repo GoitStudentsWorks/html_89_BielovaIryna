@@ -6,7 +6,7 @@
   font-weight: var(--mobile-title-font-weight);
   font-size: var(--mobile-title-font-size);
   line-height: var(--mobile-titile-line-height);
-  letter-spacing: var(--mobile-title-letter-spasing);
+  letter-spacing: var(--mobile-title-letter-spacing);
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 32px;
@@ -37,7 +37,7 @@
   font-weight: var(--mobile-title-font-weight);
   font-size: var(--secondary-title-font-size);
   line-height: var(--secondary-title-second-line-height);
-  letter-spacing: var(--secondary-title-letter-spasing);
+  letter-spacing: var(--secondary-title-letter-spacing);
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 2px;
@@ -46,7 +46,7 @@
   font-weight: var(--secondary-text-card-font-weight);
   font-size: var(--secondary-text-font-size);
   line-height: var(--secondary-text-line-height);
-  letter-spacing: var(--secondary-text-letter-spasing);
+  letter-spacing: var(--secondary-text-letter-spacing);
   text-align: center;
   color: var(--light-dark-text-color);
   margin-bottom: 18px;
