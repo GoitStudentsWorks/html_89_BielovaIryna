@@ -31,7 +31,10 @@
 @media screen and (min-device-pixel-ratio: 2) and (min-width:375px)  and (max-width:767px),
 screen and (min-resolution: 375dpi) and (min-width:375px) and (max-width:767px),
 screen and (min-resolution: 2dppx) and (min-width:375px) and (max-width:767px){
-  .hero-container {
+  .hero-container{
+    background-color: inherit;
+  }
+    .hero-container.lazy-background.visible {
     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/hero/hero-bg-mobile@2x.jpg);
   }
 }
@@ -161,7 +164,10 @@ color: var(--orange-color);
     @media screen and (min-device-pixel-ratio: 2) and (min-width:768px) and (max-width:1200px),
     screen and (min-resolution: 192dpi) and (min-width:768px) and (max-width:1200px),
     screen and (min-resolution: 2dppx) and (min-width:768px) and (max-width:1200px){
-      .hero-container {
+        .hero-container{
+            background-color: inherit;
+          }
+            .hero-container.lazy-background.visible {
         background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/hero/hero-bg-tablet@2x.jpg);
       }
     }
@@ -231,7 +237,10 @@ color: var(--orange-color);
     @media screen and (min-device-pixel-ratio: 2) and (min-width:1200px) ,
     screen and (min-resolution: 192dpi) and (min-width:1200px),
     screen and (min-resolution: 2dppx) and (min-width:1200px){
-      .hero-container {
+        .hero-container{
+            background-color: inherit;
+          }
+            .hero-container.lazy-background.visible {
         background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/hero/hero-bg@2x.jpg);
       }
     }
