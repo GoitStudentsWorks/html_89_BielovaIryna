@@ -57,23 +57,23 @@
 .howmade-video iframe {
        width: 100%;
        height: 100%;
-          
+
     }
 
     @media screen and (min-width: 768px) {
       .howmade-video {
       width: 614px;
       height: 400px;
-    
+
       }}
-    
+
     @media screen and (min-width: 1200px) {
       .howmade-video {
        width: 600px;
       height: 400px;
-    
+
       }}
-  
+
 /*============== LIST - styles ================= */
 
 .howmade-list{
@@ -93,7 +93,7 @@ padding-left: 12px;
   line-height: var(--secondary-title-second-line-height);
   color: var(--main-dark-color);
   margin-bottom: 20px;
-  
+
 }
 @media screen and (min-width: 768px) {
   .howmade-list-titel {
@@ -131,7 +131,79 @@ padding-left: 12px;
       gap: 24px;
     }}
 
+.video {
+  padding-bottom:56.25%;
+  position:relative;
+  width: 335px;
+  height: 500px;
+}/*--- bottom (or top) padding sets aspect ratio ---*/
 
+@media screen and (min-width: 768px) {
+  .video {
+  width: 614px;
+  height: 400px;
+
+  }}
+
+@media screen and (min-width: 1200px) {
+  .video {
+    width: 600px;
+  height: 400px;
+
+  }}
+
+/*--- placeholder link & <iframe> (when loaded) ---*/
+.video a, .video iframe {
+  display:block;
+  width:100%;
+  height:100%;
+  position:absolute;
+}
+  .video iframe {
+    border:0
+  }
+
+  /*--- optional custom play button ---*/
+  .video a::before {
+    box-sizing: border-box;
+    display: block;
+    height: 1em;
+    width: 1em;
+    background-color: rgba(0,0,0,0.6);
+    border: 0.05em solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    font-size: 3em;
+    margin: -0.5em 0 0 -0.5em;
+    transition: background-color .2s;
+    content: "";
+}
+.video a::after {
+  display: block;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-width: 0.2em 0 0.2em 0.3em;
+  border-left-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  font-size: 3em;
+  margin: -0.2em 0 0 -0.1em;
+  content: "";
+}
+
+  /*--- placeholder/preview image ---*/
+  .video img {
+    object-fit:cover;
+    height:100%;
+    width:100%;
+  }
 
 
 
