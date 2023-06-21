@@ -86,7 +86,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url(/img/explore-chocolate-first/mobile/Subcribe-mob@2x.jpg);
+      url(/img/explore-chocolate-first/mobile/subcribe-mob@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -102,7 +102,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url(/img/explore-chocolate-first/planshet/Subcribe-tablet.jpg);
+      url(/img/explore-chocolate-first/planshet/subcribe-tablet.jpg);
       padding-top: 72px;
       padding-bottom: 72px;
     }
@@ -122,7 +122,7 @@
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
         ),
-        url(/img/explore-chocolate-first/desctop/Subcribe-desc@2x.png);
+        url(/img/explore-chocolate-first/desctop/subcribe-desc@2x.png);
     }
   }
   
@@ -151,7 +151,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url(/img/explore-chocolate-first/desctop/Subcribe-desc.jpg);
+      url(/img/explore-chocolate-first/desctop/subcribe-desc.jpg);
   }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -168,7 +168,7 @@
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
         ),
-        url(/img/explore-chocolate-first/desctop/Subcribe-desc@2x.png);
+        url(/img/explore-chocolate-first/desctop/subcribe-desc@2x.png);
     }
   }
 }
