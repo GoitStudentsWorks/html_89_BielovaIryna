@@ -1,14 +1,14 @@
 
-.howmade-container {
+.how-made {
   padding-bottom: 72px;
 }
 @media screen and (min-width: 768px) {
-  .howmade-container {
+  .how-made {
     padding-bottom: 100px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .howmade-container {
+  .how-made {
     padding-bottom: 128px;
   }
 }
@@ -84,6 +84,8 @@ padding-left: 12px;
 .howmade-list-box {
   max-width: 335px;
   padding: 20px 14px;
+  background-color: var(--white-color);
+  border-radius: 15px;
 }
 .howmade-list-titel {
   font-weight: var(--mobile-title-font-weight);

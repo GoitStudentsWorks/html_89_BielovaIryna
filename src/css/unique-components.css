@@ -31,9 +31,7 @@ img {
   letter-spacing: var(--main-text-letter-spacing);
   margin: 0 auto 32px;
 }
-.third-section {
-  padding: 72px 0;
-}
+
 
 .front-orange {
   background: var(--orange-color);
@@ -202,17 +200,16 @@ img {
     width: 486px;
     margin-bottom: 50px;
   }
-  .title-third-section {
-    padding-bottom: 28px;
-  }
+ 
   .third-section {
     padding: 100px 0;
   }
   .title-third-section {
-    width: 411px;
+    max-width: 411px;
     font-weight: var(--button-font-weight);
     font-size: var(--section-title-font-size);
     line-height: var(--secondary-text-line-height);
+    margin-bottom: 28px;
   }
 }
 @media screen and (min-width: 1200px) {
