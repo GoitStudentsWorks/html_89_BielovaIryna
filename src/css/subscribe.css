@@ -53,16 +53,29 @@
 }
 .subscribe-modal-close-btn {
   background-color: transparent;
-  padding: 0;
-}
-.subscribe-close-svg {
-  stroke: var(--white-color);
-  width: 24px;
-  height: 24px;
   position: absolute;
   top: 31px;
   right: 31px;
   z-index: 4;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  transition: background-color var(--transition);
+}
+.subscribe-modal-close-btn:hover,
+.subscribe-modal-close-btn:focus {
+  background-color: var(--light-orange-color);
+}
+.subscribe-close-svg {
+  stroke: var(--white-color);
+  width: 16px;
+  height: 16px;
+  transition: stroke var(--transition);
+}
+.subscribe-close-svg:hover,
+.subscribe-close-svg:focus {
+  stroke: var(--orange-color);
 }
 .subscribe-label-input::placeholder {
   font-weight: var(--card-button-text-font-weight);
@@ -126,6 +139,23 @@
   border: 1.5px solid var(--white-color);
 }
 @media screen and (min-width: 768px) {
+  .subscribe-modal-close-btn {
+    width: 38px;
+    height: 38px;
+  }
+  .subscribe-modal-close-btn:hover,
+  .subscribe-modal-close-btn:focus {
+    background-color: var(--light-orange-color);
+  }
+  .subscribe-close-svg {
+    stroke: var(--white-color);
+    width: 22px;
+    height: 22px;
+  }
+  .subscribe-close-svg:hover,
+  .subscribe-close-svg:focus {
+    stroke: var(--orange-color);
+  }
   .subscribe-modal {
     width: 538px;
     height: 412px;
