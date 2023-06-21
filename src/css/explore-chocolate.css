@@ -18,7 +18,7 @@
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
-    url(/img/explore-chocolate-first/mobile/Subcribe-mob.jpg);
+    url(/img/explore-chocolate-first/mobile/subcribe-mob.jpg);
 }
 
 .explore-title {
@@ -95,7 +95,7 @@
       0deg,
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
-    );}
+    )}
     .explore-section.lazy-background.visible {
     background-image: linear-gradient(
         0deg,
@@ -115,7 +115,7 @@
           0deg,
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
-        );}
+        )}
         .explore-section.lazy-background.visible {
       background-image: linear-gradient(
           0deg,
@@ -144,7 +144,7 @@
       0deg,
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
-    );}
+    )}
     .explore-section.lazy-background.visible {
     background-image: linear-gradient(
         0deg,
@@ -161,7 +161,7 @@
           0deg,
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
-        );}
+        )}
         .explore-section.lazy-background.visible {
       background-image: linear-gradient(
           0deg,
