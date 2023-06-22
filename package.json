@@ -1,11 +1,11 @@
 {
-  "name": "project-taste_the_magic",
+  "name": "html_89_BielovaIryna",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-taste_the_magic/",
+    "build": "vite build --base=/html_89_BielovaIryna/",
     "preview": "vite preview"
   },
   "devDependencies": {
